@@ -29,7 +29,6 @@ from itertools import cycle
 app = Flask(__name__)
 api = Api(app)
 
-
 divider = "\n-----------------------------------------------\n"
 exit = "/exit"
 help = "/help"
