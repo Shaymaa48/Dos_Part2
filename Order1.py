@@ -13,9 +13,6 @@ from datetime import datetime
 app = Flask(__name__)
 api = Api(app)
 
-#catalogServer = 'http://catalog-server-1:4001'
-#order_servers = ['http://orders-server-1:5002']
-
 catalogServer = 'http://172.19.45.31:4001'
 order_servers = ['http://172.19.45.31:5002']
 
